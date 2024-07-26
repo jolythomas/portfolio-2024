@@ -6,12 +6,17 @@
 
 :root{
     --main-color: #1B1D21;
+    --second-color: #FF730E;
 }
 
 body{
     font-family: "Outfit", sans-serif;
     color: white;
     background-color: var(--main-color);
+}
+
+::selection{
+    background-color: var(--second-color);
 }
 
 header{
@@ -23,6 +28,26 @@ header{
 }
 
 .container{
-    max-width: 1100px;
+    max-width: 1200px;
+    padding-inline: 3rem;
     margin: auto;
+}
+
+.cta{
+    position: relative;
+    background-color: var(--second-color);
+    padding-inline: 1.4rem;
+    padding-block: 0.5rem;
+    font-size: 1.3rem;
+    width: fit-content;
+    border-radius: 999px;
+    margin-top: 0.5rem;
+    border: 3px solid var(--second-color);
+    transition: 0.2s ease-in-out;
+}
+
+.cta:hover{
+    transition: 0.2s ease-in-out;
+    background-color: transparent;
+    color: var(--second-color);
 }
