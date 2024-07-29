@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="src/index.js" defer></script>
+
+    <title>Thomas Joly</title>
+  <link rel="stylesheet" crossorigin href="/assets/index-5kcCPYZB.css">
+</head>
+<body>
+    <nav class="container absolute top-0 left-0 right-0 m-auto py-4 px-10 flex items-center justify-between text-xl">
+        
+        <div class="left flex-1"><img src="/assets/logo-zogjXbRi.png" alt="logo" class="h-9"></div>
+        <div class="middle flex gap-8 flex-1 justify-center">
+            <a href="#a-propos">À propos</a>
+            <a href="#projets">Projets</a>
+            <a href="#">Contact</a>
+        </div>
+        <div class="right flex-1 text-right"><a href="https://github.com/jolythomas" target="_blank"><i class='bx bxl-github text-5xl'></i></a></div>
+    </nav>
+
+    <header class="container flex items-center justify-start ">
+        <div class="texte flex flex-col gap-2">
+            <h1 class="capitalize text-8xl font-bold">Full stack<br>developer</h1>
+            <button class="cta">Découvrir</button>
+        </div>
+    </header>
+
+    <section id="a-propos" class="presentation container flex-col gap-20 items-center">
+        <div class="orange h-fit flex w-full items-center gap-10"><h2 class="uppercase">À propos</h2><div class="bg-orange h-1 flex-1"></div></div>
+        <p class="w-2/3 text-center text-xl">Je m'appelle <span class="surligner">Thomas</span>, j'ai 19 ans et je suis en deuxième année de <span class="surligner">BUT MMI</span> (Métiers du Multimédia et de l'Internet). Passionné par le graphisme et le développement web, je me professionnalise dans le domaine du <span class="surligner">web-design</span>, tout en
+            enrichissant mes compétences en <span class="surligner">back-end</span> via l'utilisation de différents frameworks.
+        </p>
+
+        <div class="competences flex w-full gap-12">
+            <div class="flex gap-3 flex-col flex-1 text-center truncate"><h3>Graphisme</h3><p>Je me suis lancé en 2019 dans un apprentissage autodidacte des différentes compétences liées au monde du graphisme. J'ai donc acquis une expérience solide sur des logiciels tels que Photoshop ou Illustrator de la suite Adobe.</p><button class="underline" onclick="removeTruncateClass(this)">Voir plus</button></div>
+            <div class="flex gap-3 flex-col flex-1 text-center truncate"><h3>Front-end</h3><p>À travers mon BUT et une pratique approfondie durant mon temps libre, j'ai depuis 2021 découvert le monde du web design. Je maîtrise aujourd'hui des languages tels que l'HTML, le CSS et le JavaScript, ainsi que l'utilisation de différentes librairies telles que Tailwind CSS.</p><button class="underline" onclick="removeTruncateClass(this)">Voir plus</button></div>
+            <div class="flex gap-3 flex-col flex-1 text-center truncate"><h3>Back-end</h3><p>Le BUT MMI m'a initié au back-end à travers l'utilisation de différents languages et frameworks. Le PHP fait partie intégrante de mes projets basés sur l'utilisation de Laravel. Je maîtrise également Git, ou encore des systèmes de gestion de base de données tels que MySQL.</p><button class="underline" onclick="removeTruncateClass(this)">Voir plus</button></div>
+        </div>
+    </section>
+
+    <section id="projets" class="projets container flex-col gap-20 items-center">
+        <div class="orange h-fit flex w-full items-center gap-10"><h2 class="uppercase">Projets</h2><div class="bg-orange h-1 flex-1"></div></div>
+        <div class="projet overflow-hidden relative">
+            <div class="description h-full relative">
+                <h3>Aiguille Magique 2</h3>
+                <h4>Salon de tatouage</h4>
+            </div>
+            <a href="https://aiguillemagique2.com" target="_blank" class="absolute left-6 bottom-6"><i class='bx bx-link-external text-3xl' ></i></a>
+            <img src="/assets/am2-C3N91g4d.png" alt="am2" class="absolute right-8 top-8">
+        </div>
+    </section>
+
+    <footer>
+        <div class="container flex justify-between items-center">
+            <div class="left"><img src="/assets/logo-zogjXbRi.png" alt="logo" class="h-9"></div>
+            <div class="right flex justify-end text-right gap-3"><a href="https://www.linkedin.com/in/thomas-joly-5b679a291" target="_blank"><i class='bx bxl-linkedin text-5xl'></i></a>
+                <a href="https://github.com/jolythomas" target="_blank"><i class='bx bxl-github text-5xl'></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
