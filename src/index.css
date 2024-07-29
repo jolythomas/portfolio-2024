@@ -118,3 +118,8 @@ h3{
     padding: 2rem;
     height: fit-content;
 }
+
+footer{
+    padding-block: 3rem;
+    background-color: #0000002a;
+}
