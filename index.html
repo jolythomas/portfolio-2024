@@ -9,7 +9,6 @@
     <link rel="manifest" href="favicon/site.webmanifest">
     <link rel="stylesheet" href="src/index.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script src="src/index.js" defer></script>
 
     <title>Thomas Joly</title>
 </head>
@@ -65,5 +64,20 @@
             </div>
         </div>
     </footer>
+
+    <script>
+        function removeTruncateClass(button) {
+            var parentDiv = button.parentElement;
+
+            if(parentDiv.classList.contains('truncate')){
+                parentDiv.classList.remove('truncate');
+                button.innerHTML = "Voir moins"
+            }
+            else{
+                parentDiv.classList.add('truncate');
+                button.innerHTML = "Voir plus"
+            }
+        }
+    </script>
 </body>
 </html>

@@ -235,6 +235,18 @@ footer{
 }
 
 
+@media screen and (max-width:650px){
+    header{
+        background-size: cover;
+    }
+    .projet .description h3{
+        font-size: 1.5rem;
+    }
+    nav .right{
+        flex: 0;
+    }
+}
+
 @media screen and (max-width:900px) {
     header{
         background-position: center -3rem;
