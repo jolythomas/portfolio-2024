@@ -9,6 +9,11 @@
     --second-color: #FF730E;
 }
 
+*{
+    padding: 0;
+    margin: 0;
+}
+
 body{
     font-family: "Outfit", sans-serif;
     color: white;
@@ -50,4 +55,23 @@ header{
     transition: 0.2s ease-in-out;
     background-color: transparent;
     color: var(--second-color);
+}
+
+section{
+    min-height: 80vh;
+    display: flex;
+    padding-block: 3rem;
+}
+
+.orange{
+    color: var(--second-color);
+}
+
+.bg-orange{
+    background-color: var(--second-color);
+}
+
+h2{
+    font-weight: 900;
+    font-size: 3rem;
 }

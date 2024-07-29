@@ -9,22 +9,36 @@
     <title>Thomas Joly</title>
 </head>
 <body>
-    <nav class="container absolute top-0 left-0 right-0 py-6 px-10 flex items-center justify-between text-xl">
+    <nav class="container absolute top-0 left-0 right-0 py-4 px-10 flex items-center justify-between text-xl">
         <div class="left"></div>
-        <div class="middle flex gap-6">
+        <div class="middle flex gap-8">
             <a href="">Accueil</a>
-            <a href="">Contact</a>
+            <a href="">À propos</a>
             <a href="">Projets</a>
+            <a href="">Contact</a>
         </div>
         <div class="right"><a href="https://github.com/jolythomas" target="_blank"><i class='bx bxl-github text-5xl'></i></a></div>
     </nav>
+
     <header class="container flex items-center justify-start ">
         <div class="left flex flex-col gap-2">
             <div><img src="img/logo.png" alt="" class="h-9"></div>
             <h1 class="capitalize text-8xl font-bold">Full stack<br>developer</h1>
             <button class="cta">Découvrir</button>
         </div>
-
     </header>
+
+    <section class="presentation container flex-col gap-10 items-center">
+        <div class="orange h-fit flex w-full items-center gap-10"><h2 class="uppercase">À propos</h2><div class="bg-orange h-1 flex-1"></div></div>
+        <p class="text-lg w-2/3 text-center">Je m'appelle Thomas, j'ai 19 ans et je suis en deuxième année de BUT MMI (Métiers du Multimédia et de l'Internet). Passionné par le graphisme et le développement web, je me professionnalise dans le domaine du web design, tout en
+            enrichissant mes compétences en back-end via l'utilisation de différents frameworks.
+        </p>
+
+        <div class="competences flex w-full gap-3">
+            <div class="flex-1 text-center bg-yellow-400"><h3>Graphisme</h3><p>Je me suis lancé en 2019 dans un apprentissage autodidacte des différentes compétences liées au monde du graphisme. J'ai donc acquis une expérience solide sur des logiciels tels que Photoshop ou Illustrator de la suite Adobe.</p></div>
+            <div class="flex-1 text-center bg-yellow-400"><h3>Front-end</h3><p>À travers mon BUT et une pratique approfondie durant mon temps libre, j'ai depuis 2021 découvert le monde du web design. Je maîtrise aujourd'hui des languages tels que l'HTML, le CSS et le JavaScript, ainsi que l'utilisation de différentes librairies telles que Tailwind CSS.</p></div>
+            <div class="flex-1 text-center bg-yellow-400"><h3>Back-end</h3><p>Le BUT MMI m'a initié au back-end à travers l'utilisation de différents languages et frameworks. Le PHP fait partie intégrante de mes projets basés sur l'utilisation de Laravel. Je maîtrise également Git, ou encore des systèmes de gestion de base de données tels que MySQL.</p></div>
+        </div>
+    </section>
 </body>
 </html>
