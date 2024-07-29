@@ -58,9 +58,9 @@ header{
 }
 
 section{
-    min-height: 80vh;
+    /* min-height: 80vh; */
     display: flex;
-    padding-block: 3rem;
+    padding-block: 5rem;
 }
 
 .orange{
@@ -74,4 +74,47 @@ section{
 h2{
     font-weight: 900;
     font-size: 3rem;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.surligner{
+    position: relative;
+}
+
+.surligner::after{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transform:rotateZ(-3deg);
+    background-color: var(--second-color);
+}
+
+.truncate{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.truncate p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    width: 100%; /* Ajoutez une largeur pour les points de suspension */
+}
+
+.competences > div{
+    border-radius: 1rem;
+    background-color: #0000002a;
+    padding: 2rem;
+    height: fit-content;
 }
