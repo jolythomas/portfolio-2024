@@ -161,7 +161,7 @@ h3{
     font-weight: 500;
 }
 
-.projet button{
+.projet a{
     background-color: var(--main-color);
     border: 3px solid var(--main-color);
     color: var(--second-color);
@@ -169,7 +169,7 @@ h3{
     transition: 0.3s ease-in-out;
 }
 
-.projet button:hover{
+.projet a:hover{
     background-color: var(--second-color);
     color: var(--main-color);
     transition: 0.3s ease-in-out;
@@ -200,7 +200,8 @@ footer{
     .projet .description h4{
         display: none;    
     }
-    .projet button{
+    .projet a{
+        text-align: center;
         border: none;
         z-index: 99;
         bottom: 0;
@@ -209,7 +210,7 @@ footer{
         background-color: white;
         color: var(--main-color);
     }
-    .projet button:hover{
+    .projet a:hover{
         background-color: rgb(176, 175, 175);
     }
     .projet{
