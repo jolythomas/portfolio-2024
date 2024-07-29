@@ -35,7 +35,7 @@ header{
 
 .container{
     max-width: 1200px;
-    padding-inline: 3rem;
+    padding-inline: 2rem;
     margin: auto;
 }
 
@@ -230,5 +230,36 @@ footer{
         right: 0;
         top: 5rem;
         text-align: center;
+    }
+}
+
+
+@media screen and (max-width:900px) {
+    header{
+        background-position: center -3rem;
+        padding-bottom: 1rem;
+    }
+    header .texte{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        align-self: flex-end;
+        text-align: center;
+    }
+    header .texte h1{
+        font-size: 4rem;
+        line-height: 1;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .competences{
+        flex-direction: column;
+    }
+    .presentation > p{
+        width: 80%;
+    }
+    nav .middle{
+        display: none;
     }
 }
