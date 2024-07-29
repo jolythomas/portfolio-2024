@@ -124,7 +124,111 @@ h3{
     color: var(--second-color);
 }
 
+.projet{
+    border-radius: 1rem;
+    width: 100%;
+    max-width: 50rem;
+    max-height: 23rem;
+    height: 40vw;
+    padding: 2rem;
+    background-color: var(--second-color);
+    color: var(--main-color);
+}
+
+/* 
+.projet img{
+    width: 40%;
+} */
+
+.projet img{
+    width: 60%;
+}
+
+.projet .description{
+    width: 30%;
+}
+
+.projet .description h3{
+    font-size: 2rem;
+    line-height: 1.2;
+    color: var(--main-color);
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.projet .description h4{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.projet button{
+    background-color: var(--main-color);
+    border: 3px solid var(--main-color);
+    color: var(--second-color);
+    padding: 1rem;
+    transition: 0.3s ease-in-out;
+}
+
+.projet button:hover{
+    background-color: var(--second-color);
+    color: var(--main-color);
+    transition: 0.3s ease-in-out;
+}
+
 footer{
     padding-block: 3rem;
     background-color: #0000002a;
+}
+
+/* //////////////////////////////////////////////////////// */
+
+@media screen and (max-width:790px) {
+    .projet .description{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .projet .description h3{
+        background-color: var(--main-color);
+        color: var(--second-color);
+        width: fit-content;
+        height: fit-content;
+        padding-inline: 0.4rem;
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    .projet .description h4{
+        display: none;    
+    }
+    .projet button{
+        border: none;
+        z-index: 99;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        color: var(--main-color);
+    }
+    .projet button:hover{
+        background-color: rgb(176, 175, 175);
+    }
+    .projet{
+        border-radius: 1rem;
+        width: 100%;
+        max-width: 50rem;
+        max-height: 23rem;
+        height: 70vw;
+        padding: 2rem;
+        background-color: var(--second-color);
+        color: var(--main-color);
+    }
+    .projet img{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top: 5rem;
+        text-align: center;
+    }
 }
