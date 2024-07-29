@@ -29,7 +29,8 @@ header{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right center;
-    min-height: 100vh;
+    height: 100vh;
+    max-height: 1080px;
 }
 
 .container{
