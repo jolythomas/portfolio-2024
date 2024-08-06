@@ -196,6 +196,10 @@ h3{
     text-align: center;
 }
 
+.contact form{
+    margin-top: 1rem;
+}
+
 .contact form button{
     color: white;
     margin-top: 1rem;
@@ -219,7 +223,7 @@ h3{
 }
 
 .contact form textarea{
-    height: 11.7rem;
+    height: 10.7rem;
 }
 
 .orange-box{
@@ -284,9 +288,6 @@ footer{
         right: 0;
         top: 5rem;
         text-align: center;
-    }
-    .contact form{
-        margin-top: 1rem;
     }
     .contact .box{
         flex-direction: column;
