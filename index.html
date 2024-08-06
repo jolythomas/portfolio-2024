@@ -58,10 +58,10 @@
 
     <section id="contact" class="contact container flex-col gap-20 items-center">
         <div class="orange h-fit flex w-full items-center gap-10"><h2 class="uppercase">Contact</h2><div class="bg-orange h-1 flex-1"></div></div>
-            <div class="flex gap-8 w-full">
+            <div class="flex box gap-8 w-full">
                 <div class="left flex flex-col gap-8 ">
-                    <div class="orange-box"><h3 class="w-fit">Mail: </span></h3><a href="mailto:thomasjoly40@gmail.com" class="underline text-xl">thomasjoly40@gmail.com</a></div>
-                    <div class="orange-box"><h3 class="w-fit">Téléphone: </span></h3><a href="tel:+33666907760" class="underline text-xl">06 66 90 77 60</a></div>
+                    <div class="orange-box flex flex-col gap-3"><h3 class="w-fit">Mail: </span></h3><a href="mailto:thomasjoly40@gmail.com" class="underline text-xl">thomasjoly40@gmail.com</a></div>
+                    <div class="orange-box flex flex-col gap-3"><h3 class="w-fit">Téléphone: </span></h3><a href="tel:+33666907760" class="underline text-xl">06 66 90 77 60</a></div>
                     <div class="orange-box flex flex-col gap-3"><h3 class="w-fit">Réseaux: </span></h3>
                         <div class="flex reseaux">
                             <a href="https://instagram.com/thomasjoly.css" target="_blank"><i class='bx bxl-instagram text-5xl'></i></a>
@@ -73,10 +73,14 @@
                 </div>
 
                 <div class="right flex-1">
-                    <div class="orange-box">
+                    <div class="orange-box flex flex-col gap-3">
                         <h3>Formulaire de contact</h3>
-                        <form action="">
-
+                        <form action="" class="flex flex-col gap-2">
+                            <input type="text" name="Name" placeholder="Nom Prénom">
+                            <input type="email" name="Email" placeholder="E-mail">
+                            <input type="text" name="Sujet" placeholder="Sujet">
+                            <textarea name="Message" placeholder="Message" required class="h-full"></textarea>
+                            <button type="submit" class="w-fit flex items-center gap-2">Envoyer <i class='bx bx-paper-plane'></i></button>
                         </form>
                    </div>
                 </div>
