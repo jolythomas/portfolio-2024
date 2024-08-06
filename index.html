@@ -75,11 +75,11 @@
                 <div class="right flex-1">
                     <div class="orange-box flex flex-col gap-3">
                         <h3>Formulaire de contact</h3>
-                        <form action="" class="flex flex-col gap-2">
-                            <input type="text" name="Name" placeholder="Nom Prénom">
-                            <input type="email" name="Email" placeholder="E-mail">
-                            <input type="text" name="Sujet" placeholder="Sujet">
-                            <textarea name="Message" placeholder="Message" required class="h-full"></textarea>
+                        <form method="post" action="send-email.php" class="flex flex-col gap-2">
+                            <input type="text" name="name" placeholder="Nom Prénom">
+                            <input type="email" name="email" placeholder="E-mail">
+                            <input type="text" name="sujet" placeholder="Sujet">
+                            <textarea name="message" placeholder="Message" required class="h-full"></textarea>
                             <button type="submit" class="w-fit flex items-center gap-2">Envoyer <i class='bx bx-paper-plane'></i></button>
                         </form>
                    </div>
