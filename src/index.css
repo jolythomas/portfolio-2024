@@ -180,6 +180,9 @@ h3{
 .contact .left > div, .contact .right > div{
     display: flex;
     flex-direction: column;
+}
+
+.orange-box{
     border-radius: 1rem;
     background-color: var(--second-color);
     padding: 2rem;
