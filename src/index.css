@@ -285,6 +285,9 @@ footer{
         top: 5rem;
         text-align: center;
     }
+    .contact form{
+        margin-top: 1rem;
+    }
     .contact .box{
         flex-direction: column;
     }
@@ -346,5 +349,23 @@ footer{
     }
     nav .middle{
         display: none;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .contact{
+        line-height: 1;
+    }
+    .contact h3{
+        font-size: 1.5rem;
+    }
+    .contact a{
+        font-size: 1rem;
+    }
+    .contact i{
+        font-size: 2rem;
+    }
+    .contact form button i{
+        font-size: 1rem;
     }
 }
